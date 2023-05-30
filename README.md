@@ -56,3 +56,7 @@ It is noticeable that for a well-behaved background, the segmentation occurs as 
 For better results, I believe that it would be necessary to employ more robust techniques that go beyond the traditional segmentation approach.
 
 Finally, despite the aforementioned problems, I achieved the highest grade in the class for this project, demonstrating that segmenting objects by color using traditional computer vision techniques is indeed not a simple task.
+
+## Note
+
+The .ipynb file is too large to be displayed on GitHub. If you would like a quick preview of the file without downloading it, please access: https://colab.research.google.com/drive/1r0lxHrhD9yri6ytPHyBZ4gCZW-S1BSA8?usp=sharing
