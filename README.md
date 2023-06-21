@@ -15,7 +15,7 @@ Below is an example of each background like M&M candies of various colors to und
 
 To access all the provided images, please visit: https://drive.google.com/file/d/1Q2mwA8k36r5RWhSbPjQ6dWrndn1jgpEH/view?usp=sharing
 
-# Method
+# Methods
 
 ## Calibrating camera
 
@@ -43,13 +43,13 @@ For the noisy background, the only difference is that we first convert the image
 </p>
 
 
-## Limitations
+# Limitations
 
 How we can see for white background the color segmentation using HSV got a good result for the majority colors. But, if was needed color segmentation for similar colors we had problem to find a good limiar of decision. Moreover, for other condictions of lighting or background color we would have more difficulty to segmentation.
 
 And for noisy background one limitation is for some colors, how brown, the area is very imprecise duo the background color. Moreover, how can see in calib_img 5.png two M&M near are considered only one. Indeed, it is a more complex task to work with a background that does not follow a well-defined pattern.
 
-## Conclusion
+# Conclusion
 
 It is noticeable that for a well-behaved background, the segmentation occurs as expected, but for another background with more disorder, this does not happen, and new challenges arise.
 
@@ -57,6 +57,6 @@ For better results, I believe that it would be necessary to employ more robust t
 
 Finally, despite the aforementioned problems, I achieved the highest grade in the class for this project, demonstrating that segmenting objects by color using traditional computer vision techniques is indeed not a simple task.
 
-## Note
+# Note
 
 The .ipynb file is too large to be displayed on GitHub. If you would like a quick preview of the file without downloading it, please access: https://colab.research.google.com/drive/1r0lxHrhD9yri6ytPHyBZ4gCZW-S1BSA8?usp=sharing
